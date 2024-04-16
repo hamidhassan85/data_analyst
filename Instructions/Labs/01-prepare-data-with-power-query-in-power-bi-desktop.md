@@ -39,7 +39,7 @@ This lab is designed to introduce you to Power BI Desktop application and how to
 
     *Note: At this point, Power BI will ask you to sign in if you haven't already. You can either sign in or select **Cancel** and continue the exercise.*
 
-1. Save a copy of the file with **Save As** in to the **D:\Allfiles\MySolution** folder.
+1. Save a copy of the file with **File > Save As** in to the **D:\Allfiles\MySolution** folder.
 
 ## **Get data from SQL Server**
 
@@ -54,8 +54,6 @@ This task teaches you how to connect to a SQL Server database and import tables,
     *Note: In this lab, you’ll connect to the SQL Server database by using **localhost** because gateway data sources can't resolve **localhost**. This isn’t a recommended practice when creating your own solutions.*
 
 1. If prompted for credentials, in the **SQL Server Database** window, select **Use my current credentials**, and then **Connect**.
-
-1. If prompted for creating an unencrypted connection, select **OK**.
 
 1. In the **Navigator** pane, expand the **AdventureWorksDW2020** database.
 
