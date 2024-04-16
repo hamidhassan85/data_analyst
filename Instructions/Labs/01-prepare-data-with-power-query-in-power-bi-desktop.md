@@ -37,7 +37,7 @@ This lab is designed to introduce you to Power BI Desktop application and how to
 
 1. Select the **Sales Analysis** file.
 
-    *Note: At this point, Power BI will ask you to sign in if you haven't already. You can either sign in or select **Cancel** and continue the exercise.*
+    *Note: At this point, Power BI will ask you to sign in if you haven't already. You can either sign in or select **Cancel** and continue the lab.*
 
 1. Save a copy of the file with **File > Save As** in to the **D:\Allfiles\MySolution** folder.
 
