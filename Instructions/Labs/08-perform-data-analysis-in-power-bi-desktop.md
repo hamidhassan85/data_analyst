@@ -65,11 +65,11 @@ In this task, you'll create a live connection to the Power BI semantic model cre
 
     *Important: If you already have Power BI Desktop open (from a previous lab), close that instance.*
 
-    *Tip: By default, the Getting Started dialog box opens in front of Power BI Desktop. You can choose to sign-in, and then close the pop-up.*
+1. Create a new report.
 
 1. In the Home ribbon, select **Get Data > Power BI semantic models**.
 
-1. In the **Data hub** window, select the **Sales Analysis** semantic model in **My Workspace**, and then **Connect** or double-click to load the semantic model.
+1. In the **OneLake data hub** window, select the **Sales Analysis** semantic model in **My Workspace**, and then **Connect** or double-click to load the semantic model.
 
 1. Navigate to **File > Save** and save the file name as **Sales Exploration** in the **D:\Allfiles\MySolution** folder.
 
