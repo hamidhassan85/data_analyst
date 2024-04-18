@@ -35,13 +35,9 @@ In this task, you start by opening a starter Power BI (.pbix) file. The starter 
 
     ![Power BI Desktop icon](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-    *Note: Dismiss any popups requesting an email or sign-in.*
-
 1. To open the starter Power BI Desktop file, select the **Open > Browse this device**.
 
 1. Navigate to the **01-prepare-data** folder.
-
-1. Select the **01-Sales Analysis-Starter** file.
 
 ## **Get data from SQL Server**
 

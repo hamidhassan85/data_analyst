@@ -87,7 +87,7 @@ In this task, you'll create the **Sales Monitoring** dashboard. You'll pin a vis
 
     ![Picture 7](Linked_image_Files/09-create-power-bi-dashboard_image23.png)
 
-1. Select any one of the suggested questions beneath the Q&A box, in blue boxes, and review the response.
+1. Select any one of the suggested questions beneath the Q&A box and review the response.
 
 1. Remove all text from the Q&A box, and enter the following: **Sales YTD**
 
@@ -121,7 +121,7 @@ In this task, you'll create the **Sales Monitoring** dashboard. You'll pin a vis
     
 	*You can embed an image by using its URL, or you can use a data URL, which embeds content inline.*
 
-1. To resize the logo tile, drag the bottom-right corner, and resize the tile to become one unit wide, and two units high.
+1. To resize the logo tile, drag the bottom-right corner, and resize the tile to become one unit wide, and one unit high.
     
 	*Tile sizes are limited to a rectangular shape.*
 

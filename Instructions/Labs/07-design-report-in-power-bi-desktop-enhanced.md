@@ -51,11 +51,11 @@ In this task, you'll set up the environment for the lab by opening the starter r
 
     ![Power BI Desktop icon](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-    *Tip: By default, the Getting Started dialog box opens in front of Power BI Desktop. You can choose to sign-in, and then close the pop-up.*
-
-1. To open the starter Power BI Desktop file, select the **File > Open Report > Browse Reports**.
+1. To open the starter Power BI Desktop file, select **Open > Browse this device**.
 
 1. In the **Open** window, navigate to the **D:\Allfiles\Labs\07-design-report-in-power-bi-desktop-enhanced\Starter** folder, and open the **Sales Analysis** file.
+
+   *Note: At this point, Power BI will ask you to sign in if you haven't already. You can either sign in or select **Cancel** and continue the lab.*
 
 1. Close any informational windows that may open.
 
@@ -97,7 +97,7 @@ In this task, you'll sync the **Year** and **Region** slicers, continuing the de
 
 1. Test the sync slicers by selecting different filter options, and then verifying that the synced slicers filter by the same selection.
 
-1. To close the **Sync Slicer** page, select the **X** located at the top-right of the pane.
+1. To close the **Sync Slicer** page, select the **Sync Slicer** option located on the **View** ribbon tab.
 
 ## **Configure drill through**
 
@@ -194,7 +194,7 @@ In this task, you'll enhance the drill through page with conditional formatting.
 
 1. Configure the second rule (green circle) as follows, then select **OK**:
 
-	*The rules can be interpreted as follows: display a red diamond if the profit margin value is less than 0; otherwise if the value is great or equal to zero, display a green circle.*
+	*The rules can be interpreted as follows: display a red diamond if the profit margin value is less than 0; otherwise if the value is greater than or equal to zero, display a green circle.*
 
 	 - In the second control, enter **0**
 	 - In the third control, select **Number**

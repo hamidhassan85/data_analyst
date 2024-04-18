@@ -30,11 +30,11 @@ In this exercise, you'll create two calculated tables. The first will be the **S
 
     ![Power BI Desktop icon](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-    *Tip: By default, the Getting Started dialog box opens in front of Power BI Desktop. You can choose to sign-in, and then close the pop-up.*
-
-1. To open the starter Power BI Desktop file, select the **File > Open Report > Browse Reports**.
+1. To open the starter Power BI Desktop file, select **Open > Browse this device**.
 
 1. In the **Open** window, navigate to the **D:\Allfiles\Labs\04-create-dax-calculations-in-power-bi-desktop\Starter** folder, and open the **Sales Analysis** file.
+
+   *Note: At this point, Power BI will ask you to sign in if you haven't already. You can either sign in or select **Cancel** and continue the lab.*
 
 1. Close any informational windows that may open.
 
@@ -70,7 +70,7 @@ The formula bar supports entering a valid DAX formula. It includes features like
 
      *Tip: You’re encouraged to enter “white space” (that is, carriage returns and tabs) to write formulas in an intuitive and easy-to-read format—especially when formulas are long and complex. To enter a carriage return, press **Shift+Enter**. “White space” is optional.*
 
-1. In the **Data** pane, notice that the table icon is a shade of blue (denoting a calculated table).
+1. In the **Data** pane, notice that the table icon has an additional calculator in front of it (denoting a calculated table).
 
 	![Picture 10](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image11.png)
 
@@ -104,7 +104,7 @@ The formula bar supports entering a valid DAX formula. It includes features like
 
 In this task, you'll create the **Date** table.
 
-1. Switch to Data view. On the **Home** ribbon tab, from inside the **Calculations** group, select **New Table**.
+1. Switch to Table view. On the **Home** ribbon tab, from inside the **Calculations** group, select **New Table**.
 
 	![Picture 5](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image15.png)
 
@@ -242,7 +242,6 @@ In this task, you'll complete the design of the **Date** table by hiding a colum
 
 1. Rename newly created hierarchy to **Fiscal** by right select and **Rename**.
 
-
 1. Add the follow two remaining fields to the Fiscal hierarchy by selecting them in the **Data** pane, right clicking, selecting **Add to hierarchy** -> **Fiscal**.
 
 	- Quarter
@@ -255,6 +254,8 @@ In this task, you'll complete the design of the **Date** table by hiding a colum
 	- **Date \| Date** to **Sales \| OrderDate**
 	- **Date \| Date** to **Targets \| TargetMonth**
 
+	*The labs use a shorthand notation to reference a field. It will look like this: **Sales \| Unit Price**. In this example, **Sales** is the table name and **Unit Price** is the field name.*
+
 1. Hide the following two columns:
 
 	- Sales \| OrderDate
@@ -266,13 +267,11 @@ In this task, you'll mark the **Date** table as a date table.
 
 1. Switch to Report view. In the **Data** pane, select the **Date** table (not the **Date** field).
 
-1. On the **Table Tools** contextual ribbon, from inside the **Calendars** group, select **Mark as Date Table**, and then select **Mark as Date Table**.
+1. On the **Table Tools** contextual ribbon, from inside the **Calendars** group, select **Mark as Date Table**.
 
-	![Picture 8](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image32.png)
+1. In the **Mark as a Date Table** window, slide the **Mark as a Date Table** property to **Yes** and in the **Choose a date column** dropdown list, select **Date**. Select **Save**.
 
-1. In the **Mark as Date Table** window, in the **Date Column** dropdown list, select **Date**. Select **OK**.
-
-	![Picture 37](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image33.png)
+	![Screenshot 2024-04-17 164626](https://github.com/afelix-95/PL-300-Microsoft-Power-BI-Data-Analyst/assets/148110824/f316c96a-404d-4618-9bee-f12b0868ad01)
 
 1. Save the Power BI Desktop file.
 
@@ -285,8 +284,6 @@ In this task, you'll mark the **Date** table as a date table.
 In this task, you'll create simple measures. Simple measures aggregate values in a single column or count rows of a table.
 
 1. In Report view, on **Page 2**, in the **Data** pane, drag the **Sales \| Unit Price** field into the matrix visual.
-
-	*The labs use a shorthand notation to reference a field. It will look like this: **Sales \| Unit Price**. In this example, **Sales** is the table name and **Unit Price** is the field name.*
 
 	![Picture 27](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image35.png)
 
