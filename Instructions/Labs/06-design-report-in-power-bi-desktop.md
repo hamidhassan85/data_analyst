@@ -358,7 +358,7 @@ In this task, you'll explore the report that was published to Power BI.
 
      ![Picture 86](Linked_image_Files/07-design-report-in-power-bi-desktop_image66.png)
 
-1. Hover the cursor over one of the visuals again, then at the top-right, select the dot **.** for more options. Try out each of the options, except **Chat in Teams**.
+1. Hover the cursor over one of the visuals again, then at the top-right, select the ellipsis (…), and then notice the menu options. Try out each of the options, except **Chat in Teams**.
 
      ![Picture 97](Linked_image_Files/07-design-report-in-power-bi-desktop_image67.png)
 
