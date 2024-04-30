@@ -18,6 +18,10 @@ In this lab you learn how to:
 
 **This lab should take approximately 45 minutes.**
 
+## Download necessary files
+
+To complete this exercise, first download the [02-load-data](link) zip folder. Extract the folder named as **02-load-data** to the **C:\Downloads** folder. **Leave the folder open for later use.**
+
 ## **Get started**
 
 In this task, you'll set up the environment for the lab.

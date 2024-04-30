@@ -19,6 +19,10 @@ In this lab you learn how to:
 
 **This lab should take approximately 20 minutes.**
 
+## Download necessary files
+
+To complete this exercise, first download the [10-rls](link) zip folder. Extract the folder named as **10-rls** to the **C:\Downloads** folder. **Leave the folder open for later use.**
+
 ## **Get started**
 
 In this task, you'll set up the environment for the lab.

@@ -19,6 +19,10 @@ In this lab you learn how to:
 
 **This lab should take approximately 45 minutes.**
 
+## Download necessary files
+
+To complete this exercise, first download the [06-create-reports](link) zip folder. Extract the folder named as **06-create-reports** to the **C:\Downloads** folder. **Leave the folder open for later use.**
+
 ## **Create a Report**
 
 In this task, you'll set up the environment for the lab by opening the starter report.

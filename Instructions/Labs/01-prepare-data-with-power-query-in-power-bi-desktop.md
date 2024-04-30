@@ -20,7 +20,7 @@ This lab is designed to introduce you to Power BI Desktop application and how to
 
 ## Download necessary files
 
-To complete this exercise, first download the [01-prepare-data](link) zip folder.  Extract the folder named as **01-prepare-data** to a location of your choice. **Leave the folder open for later use.**
+To complete this exercise, first download the [01-prepare-data](link) zip folder. Extract the folder named as **01-prepare-data** to the **C:\Downloads** folder. **Leave the folder open for later use.**
 
 ## **Get started with Power BI Desktop**
 

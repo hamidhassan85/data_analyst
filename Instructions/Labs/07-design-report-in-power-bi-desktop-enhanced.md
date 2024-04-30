@@ -21,6 +21,10 @@ In this lab you learn how to:
 
 **This lab should take approximately 45 minutes.**
 
+## Download necessary files
+
+To complete this exercise, first download the [07-enhance-reports](link) zip folder. Extract the folder named as **07-enhance-reports** to the **C:\Downloads** folder. **Leave the folder open for later use.**
+
 ## **Get started – Sign in**
 
 In this task, you'll set up the environment for the lab by signing in to Power BI.

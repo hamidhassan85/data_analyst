@@ -20,6 +20,10 @@ In this lab you learn how to:
 
 **This lab should take approximately 45 minutes.**
 
+## Download necessary files
+
+To complete this exercise, first download the [04-dax-intro](link) zip folder. Extract the folder named as **04-dax-intro** to the **C:\Downloads** folder. **Leave the folder open for later use.**
+
 ## **Create Calculated Tables**
 
 In this exercise, you'll create two calculated tables. The first will be the **Salesperson** table, to allow a direct relationship between it and the **Sales** table. The second will be the **Date** table.

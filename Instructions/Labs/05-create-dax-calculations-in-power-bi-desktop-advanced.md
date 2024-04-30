@@ -19,6 +19,10 @@ In this lab you learn how to:
 
 **This lab should take approximately 45 minutes.**
 
+## Download necessary files
+
+To complete this exercise, first download the [05-advanced-dax](link) zip folder. Extract the folder named as **05-advanced-dax** to the **C:\Downloads** folder. **Leave the folder open for later use.**
+
 ## **Work with Filter Context**
 
 *Important: If you're continuing on from the previous lab (and you completed that lab successfully), don't complete this task; instead, continue from the next task.*
