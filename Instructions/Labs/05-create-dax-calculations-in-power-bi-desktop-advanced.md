@@ -21,7 +21,7 @@ In this lab you learn how to:
 
 ## Download necessary files
 
-To complete this exercise, first download the [05-advanced-dax](link) zip folder. Extract the folder named as **05-advanced-dax** to the **C:\Downloads** folder. **Leave the folder open for later use.**
+To complete this exercise, first download the [05-advanced-dax](link) zip folder. Extract the folder named as **05-advanced-dax** to the **C:\Users\Student\Downloads** folder. **Leave the folder open for later use.**
 
 ## **Work with Filter Context**
 

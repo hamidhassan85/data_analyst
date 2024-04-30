@@ -20,7 +20,7 @@ This lab is designed to introduce you to Power BI Desktop application and how to
 
 ## Download necessary files
 
-To complete this exercise, first download the [01-prepare-data](link) zip folder. Extract the folder named as **01-prepare-data** to the **C:\Downloads** folder. **Leave the folder open for later use.**
+To complete this exercise, first download the [01-prepare-data](link) zip folder. Extract the folder named as **01-prepare-data** to the **C:\Users\Student\Downloads** folder. **Leave the folder open for later use.**
 
 ## **Get started with Power BI Desktop**
 
@@ -31,7 +31,7 @@ In this task, you start by opening a starter Power BI (.pbix) file. The starter 
 
 *Note: While having these two options enabled can be helpful when developing a data model, you disabled them earlier to support the lab experience. When you create relationships in the **Load Transformed Data in Power BI Desktop** lab, you’ll learn why you're adding each one.*
 
-1. Open the Power BI Desktop application.
+1. Open the Power BI Desktop application, and select **Cancel** if prompted for an email address.
 
     ![Power BI Desktop icon](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 

@@ -21,7 +21,7 @@ In this lab you learn how to:
 
 ## Download necessary files
 
-To complete this exercise, first download the [08-advanced-analytics](link) zip folder. Extract the folder named as **08-advanced-analytics** to the **C:\Downloads** folder. **Leave the folder open for later use.**
+To complete this exercise, first download the [08-advanced-analytics](link) zip folder. Extract the folder named as **08-advanced-analytics** to the **C:\Users\Student\Downloads** folder. **Leave the folder open for later use.**
 
 ## **Get started – Sign in**
 
