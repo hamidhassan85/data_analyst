@@ -51,7 +51,9 @@ This task teaches you how to connect to a SQL Server database and import tables,
 
     *Note: In this lab, you’ll connect to the SQL Server database by using **localhost** because gateway data sources can't resolve **localhost**. This isn’t a recommended practice when creating your own solutions.*
 
-1. If prompted for credentials, in the **SQL Server Database** window, select **Use my current credentials**, and then **Connect**.
+1. If prompted for credentials, select **Windows > Use my current credentials**, and then **Connect**.
+
+1. Select **OK** if you receive a warning that an encrypted connection cannot be established.
 
 1. In the **Navigator** pane, expand the **AdventureWorksDW2020** database.
 
