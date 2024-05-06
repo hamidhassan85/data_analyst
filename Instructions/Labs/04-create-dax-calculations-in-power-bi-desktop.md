@@ -441,10 +441,6 @@ In this task, you'll create more measures that use more complex formulas.
 
 	*While it appears all salespeople aren't meeting target, remember that the table visual isn’t yet filtered by a specific time period. You’ll produce sales performance reports that filter by a user-selected time period in the **Design a Report in Power BI Desktop** lab.*
 
-1. At the top-right corner of the **Data** pane, collapse and then expand open the pane.
-
-	*Collapsing and reopening the pane resets the content.*
-
 1. Notice that the **Targets** table now appears at the top of the list.
 
 	![Picture 46](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image50.png)
