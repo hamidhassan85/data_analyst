@@ -18,26 +18,28 @@ This lab is designed to introduce you to Power BI Desktop application and how to
 
 **This lab should take approximately 30 minutes.**
 
-## Download necessary files
-
-To complete this exercise, first download the [01-prepare-data](link) zip folder.  Extract the folder named as **01-prepare-data** to a location of your choice. **Leave the folder open for later use.**
-
 ## **Get started with Power BI Desktop**
 
-In this task, you start by opening a starter Power BI (.pbix) file. The starter file doesn't contain any data, but has been specially configured to help you complete the lab. The following report-level settings have been disabled in the starter file:
+ In this task, you start by opening a starter Power BI (.pbix) file. The starter file doesn't contain any data, but has been specially configured to help you complete the lab. The following report-level settings have been disabled in the starter file:
 
 - Data Load > Import relationships from data sources on first load
 - Data Load > Autodetect new relationships after data is loaded
 
 *Note: While having these two options enabled can be helpful when developing a data model, you disabled them earlier to support the lab experience. When you create relationships in the **Load Transformed Data in Power BI Desktop** lab, you’ll learn why you're adding each one.*
 
-1. Open the Power BI Desktop application.
+1. Open Power BI Desktop.
 
     ![Power BI Desktop icon](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
 1. To open the starter Power BI Desktop file, select the **Open > Browse this device**.
 
-1. Navigate to the **01-prepare-data** folder.
+1. In the **Open** window, navigate to the **D:\Allfiles\Labs\01-prepare-data-with-power-query-in-power-bi-desktop\Starter** folder.
+
+1. Select the **Sales Analysis** file.
+
+    *Note: At this point, Power BI will ask you to sign in if you haven't already. You can either sign in or select **Cancel** and continue the lab.*
+
+1. Save a copy of the file with **File > Save As** in to the **D:\Allfiles\MySolution** folder.
 
 ## **Get data from SQL Server**
 
@@ -154,7 +156,7 @@ In this task, you'll create a new query based on CSV files.
 
 1. To add a new query, in the **Power Query Editor** window, on the **Home** ribbon tab, from inside the **New Query** group, select the **New Source** down-arrow, and then select **Text/CSV**.
 
-1. In the **Open** window, navigate to the **01-prepare-data** folder, and select the **ResellerSalesTargets.csv** file. Select **Open**.
+1. In the **Open** window, navigate to the **D:\Allfiles\Resources** folder, and select the **ResellerSalesTargets.csv** file. Select **Open**.
 
 1. In the **ResellerSalesTargets.csv** window, review the preview data. Select **OK**.
 
@@ -168,7 +170,7 @@ In this task, you'll create a new query based on CSV files.
 
      ![Picture 74](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image38.png)
 
-1. Repeat the steps to create a query based on the **ColorFormats.csv** file.
+1. Repeat the steps to create a query based on the **D:\Allfiles\Resources\ColorFormats.csv** file.
 
     *The **ColorFormats** CSV file contains one row per product color. Each row records the HEX codes to format background and font colors.*
 
