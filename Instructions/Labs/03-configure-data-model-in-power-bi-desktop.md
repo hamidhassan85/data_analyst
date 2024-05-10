@@ -20,27 +20,11 @@ In this lab you learn how to:
 
 **This lab should take approximately 45 minutes.**
 
-## Download necessary files
-
-To complete this exercise, first download the [03-model-data](link) zip folder. Extract the folder named as **03-model-data** to the **C:\Users\Student\Downloads** folder. **Leave the folder open for later use.**
-
 ## **Get started**
 
-In this task, you'll set up the environment for the lab.
+To complete this exercise, first download the [03-model-data](link) zip folder. Extract the folder named as **03-model-data** to the **C:\Users\Student\Downloads** folder.
 
-1. Open Power BI Desktop.
-
-    ![Power BI Desktop icon](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
-
-1. To open the starter Power BI Desktop file, select **Open > Browse this device**.
-
-1. Navigate to the **D:\Allfiles\Labs\03-configure-data-model-in-power-bi-desktop\Starter** folder and select the **Sales Analysis** file.
-
-   *Note: At this point, Power BI will ask you to sign in if you haven't already. You can either sign in or select **Cancel** and continue the lab.*
-
-1. Close any informational windows that may open.
-
-1. Go to **File > Save As** and save the file to the **D:\Allfiles\MySolution** folder.
+1. Open the **03-Sales Analysis-Starter.pbix** file. This will open the Power BI Desktop application.
 
 ## **Create model relationships**
 
@@ -48,17 +32,9 @@ In this task, you'll create model relationships. The file was configured to not 
 
 *Important: The labs use a shorthand notation to reference a field. It will look like this: **Product \| Category**. In this example, **Product** is the table name and **Category** is the field name.*
 
-1. In Power BI Desktop, at the left, select the **Model** view icon.
+1. In Power BI Desktop, at the left, select the **Report** view icon.
 
-     ![Picture 1](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image9.png)
-
-1. If you don't see all seven tables, scroll horizontally to the right, and then drag and arrange the tables more closely together so they can all be seen at the same time.
-
-     *Tip: You can also use the zoom control located at the bottom of the window.*
-
-1. To return to Report view, at the left, select the **Report** view icon.
-
-     ![Picture 327](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image10.png)
+     ![Screenshot of the Report icon.](03-report-nav-pane.png)
 
 1. To view all table fields, in the **Data** pane, right-click an empty area, and then select **Expand All**.
 
@@ -68,59 +44,52 @@ In this task, you'll create model relationships. The file was configured to not 
 
 1. Notice that the table visual lists four product categories, and that the sales value is the same for each, and the same for the total.
 
-	*The issue is that the table is based on fields from different tables. The expectation is that each product category displays the sales for that category. However, because there isn’t a model relationship between these tables, the **Sales** table isn't filtered. You’ll now add a relationship to propagate filters between the tables.*
+     *The issue is that the table is based on fields from different tables. The expectation is that each product category displays the sales for that category. However, because there isn’t a model relationship between these tables, the **Sales** table isn't filtered. You’ll now add a relationship to propagate filters between the tables.*
 
-     ![Picture 330](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image13.png)
+     ![Screenshot of the table visual with Category and Sales.](03-table-no-relationship.png)
 
-1. On the **Modeling** ribbon tab, from inside the **Relationships** group, select **Manage Relationships**.
+1. Select the **Model** view icon from the left navigation pane, and select **Manage Relationships**.
 
-     ![Picture 331](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image14.png)
+     ![Screenshot of Model icon.](03-model-nav-pane.png)
 
-1. In the **Manage Relationships** window, notice that no relationships are yet defined.
+1. In the **Manage Relationships** window, notice that no relationships are yet defined. To create a relationship, select **New relationship**.
 
-1. To create a relationship, select **New**.
+1. Configure the relationship as follows:
 
-1. In the **New Relationship** window, in the first dropdown list, select the **Product** table.
+    - From table: **Product**
+    - To table: **Sales**
 
-     ![Picture 333](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image16.png)
+     ![Create a new relationship.](Linked_image_Files/03-new-relationship.png)
 
-1. In the second dropdown list (beneath the **Product** table grid), select the **Sales** table.
+1. Notice the following elements were automatically configured:
 
-     ![Picture 334](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image17.png)
+    - **ProductKey columns in each table are selected**. *The columns were selected because they share the same name and data type. You may need to find matching columns with different names in real data.*
 
-1. Notice the **ProductKey** columns in each table have been automatically selected.
+    - **Cardinality type is One To Many (1:\*)**. *The cardinality was automatically detected, because Power BI understands that the **ProductKey** column from the **Product** table contains unique values. One-to-many relationships are the most common cardinality, and all relationship you create in this lab will be this type.*
 
-	*The columns were selected because they share the same name and data type. You may need to find matching columns with different names in real data.*
+    - **Cross Filter Direction type is Single**. *Single filter direction means that filters propagate from the “one side” to the “many side”. In this case, it means filters applied to the **Product** table will propagate to the **Sales** table, but not in the opposite direction.*
 
-1. In the **Cardinality** dropdown list, notice that **One To Many (1:*)** is selected.
-
-	*The cardinality was automatically detected, because Power BI understands that the **ProductKey** column from the **Product** table contains unique values. One-to-many relationships are the most common cardinality, and all relationship you create in this lab will be this type.*
-
-1. In the **Cross Filter Direction** dropdown list, notice that **Single** is selected.
-
-	*Single filter direction means that filters propagate from the “one side” to the “many side”. In this case, it means filters applied to the **Product** table will propagate to the **Sales** table, but not in the opposite direction.*
-
-1. Notice that the **Mark This Relationship Active** is checked.
-
-	*Active relationships propagate filters. It’s possible to mark a relationship as inactive so filters don’t propagate. Inactive relationships can exist when there are multiple relationship paths between tables. In this case, model calculations can use special functions to activate them.*
+    - **Mark This Relationship Active is checked**. *Active relationships propagate filters. It’s possible to mark a relationship as inactive so filters don’t propagate. Inactive relationships can exist when there are multiple relationship paths between tables. In this case, model calculations can use special functions to activate them.*
 
 1. Select **OK**, notice in the **Manage Relationships** window that the new relationship is listed, and then select **Close**.
 
-1. Notice there's now a connector between the two tables (it doesn't matter if the tables are positioned next to each other).
-    1. You can interpret the cardinality that is represented by the **1** and **(*)** indicators.
-    1. Filter direction is represented by the arrow head.
-    1. A solid line represents an active relationship; a dashed line represents an inactive relationship.
-    1. Hover the cursor over the relationship to highlight the related columns.
-
      ![Picture 338](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image21.png)
 
-     There’s an easier way to create a relationship. In the model diagram, you can drag and drop columns to create a new relationship.
+1. Notice there's now a connector between the two tables (it doesn't matter if the tables are positioned next to each other).
+    - You can interpret the cardinality that is represented by the **1** and **(*)** indicators.
+    - Filter direction is represented by the arrow head.
+    - A solid line represents an active relationship; a dashed line represents an inactive relationship.
+    - Hover the cursor over the relationship to highlight the related columns.
+
+### Create additional relationships
+
+There’s an easier way to create a relationship. In the model diagram, you can drag and drop columns to create a new relationship.
 
 1. To create a new relationship using a different technique, from the **Reseller** table, drag the **ResellerKey** column onto the **ResellerKey** column of the **Sales** table.
 
-	*Tip: Sometime a column doesn’t want to be dragged. If this situation arises, select a different column, and then select the column you intend to drag again, and then try again. Ensure that you see the new relationship added to the diagram.*
+    *Tip: Sometime a column doesn’t want to be dragged. If this situation arises, select a different column, and then select the column you intend to drag again, and then try again. Ensure that you see the new relationship added to the diagram.*
 
-     ![Drag ResellerKey from Reseller table onto Sales | ResellerKey](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image22.png)
+     ![Drag ResellerKey from Reseller table onto Sales | ResellerKey](03-drag-relationship.png)
 
 1. Use the new technique to create the following two model relationships:
 
@@ -129,13 +98,13 @@ In this task, you'll create model relationships. The file was configured to not 
 
 1. In the diagram, arrange the tables so that the **Sales** table is positioned in the center of the diagram, and the related tables are arranged about it. Position the disconnected tables to the side.
 
-     ![Star schema design in Model view](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image23.png)
+     ![Screenshot of the tables arranged into a star schema.](03-relationships-configured.png)
 
 1. In the report view, notice that the table visual updated to display different values for each product category.
 
-	*Filters applied to the **Product** table now propagate to the **Sales** table.*
+    *Filters applied to the **Product** table now propagate to the **Sales** table.*
 
-     ![Updated category and sales numbers with new relationships.](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image20.png)
+     ![Updated category and sales numbers with new relationships.](03-table-with-relationship.png)
 
 1. Save the Power BI Desktop file.
 
@@ -143,7 +112,7 @@ In this task, you'll create model relationships. The file was configured to not 
 
 In this exercise you'll configure each table by creating hierarchies, and hiding, formatting, and categorizing columns.
 
-## **Configure the Product table**
+### **Configure the Product table**
 
 In this task, you'll configure the **Product** table.
 
@@ -163,7 +132,7 @@ In this task, you'll configure the **Product** table.
 
      ![Picture 343](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image26.png)
 
- 	*Tip: Don’t forget to select **Apply Level Changes**—it’s a common mistake to overlook this step.*
+  *Tip: Don’t forget to select **Apply Level Changes**—it’s a common mistake to overlook this step.*
 
 1. In the **Data** pane, notice the **Products** hierarchy.
 
@@ -182,7 +151,7 @@ In this task, you'll configure the **Product** table.
      ![Picture 348](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image29.png)
 
 1. In the **Data** pane, notice that the two columns are now inside a folder.
-    
+
    *Display folders are a great way to declutter tables—especially for tables that comprise many fields. They're logical presentation only.*
 
      ![Picture 349](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image30.png)
@@ -203,9 +172,9 @@ In this task, you'll configure the **Region** table.
 
 1. In the **Properties** pane, expand the **Advanced** section (at the bottom of the pane), and then in the **Data Category** dropdown list, select **Country/Region**.
 
-	*Data categorization can provide hints to the report designer. In this case, categorizing the column as country or region provides more accurate information to Power BI when it renders a map visualization.*
+ *Data categorization can provide hints to the report designer. In this case, categorizing the column as country or region provides more accurate information to Power BI when it renders a map visualization.*
 
-     ![Picture 352](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image32.png)
+![Picture 352](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image32.png)
 
 ## **Configure the Reseller table**
 
@@ -233,7 +202,7 @@ In this task, you'll configure the **Sales** table.
 
 1. In the **Properties** pane, in the **Description** box, enter: *Based on standard cost*.
 
-	*Descriptions can be applied to tables, columns, hierarchies, or measures. In the **Data** pane, description text is revealed in a tooltip when a report author hovers their cursor over the field.*
+ *Descriptions can be applied to tables, columns, hierarchies, or measures. In the **Data** pane, description text is revealed in a tooltip when a report author hovers their cursor over the field.*
 
 1. Select the **Quantity** column.
 
@@ -245,7 +214,7 @@ In this task, you'll configure the **Sales** table.
 
 1. In the **Advanced** group (you may need to scroll down to locate it), in the **Summarize By** dropdown list, select **Average**.
 
-	*By default, numeric columns will summarize by summing values together. This default behavior isn't suitable for a column like **Unit Price**, which represents a rate. Setting the default summarization to average will produce a meaningful result.*
+ *By default, numeric columns will summarize by summing values together. This default behavior isn't suitable for a column like **Unit Price**, which represents a rate. Setting the default summarization to average will produce a meaningful result.*
 
 ## **Bulk update properties**
 
@@ -271,9 +240,9 @@ In this task, you'll update multiple columns using single bulk updates. You'll u
 
 1. In the **Properties** pane, slide the **Is Hidden** property to **Yes**.
 
-	*The columns were hidden because they’re either used by relationships or will be used in row-level security configuration or calculation logic.*
+ *The columns were hidden because they’re either used by relationships or will be used in row-level security configuration or calculation logic.*
 
- 	*You’ll use the **SalesOrderNumber** in a calculation in the **Create DAX Calculations in Power BI Desktop** lab.*
+  *You’ll use the **SalesOrderNumber** in a calculation in the **Create DAX Calculations in Power BI Desktop** lab.*
 
 1. Multi-select the following three columns:
 
@@ -283,15 +252,11 @@ In this task, you'll update multiple columns using single bulk updates. You'll u
 
 1. In the **Properties** pane, from inside the **Formatting** section, set the **Decimal Places** property to **0** (zero).
 
-## **Review the Model Interface**
+## **Explore the model interface**
 
-In this exercise you'll switch to Report view, and review the model interface.
+In this task you'll switch to Report view, and review the data model interface.
 
-## **Review the model interface**
-
-In this task you'll switch to Report view, and review the model interface.
-
-1. Switch to Report view.
+1. Switch to **Report** view.
 
 1. In the **Data** pane, notice the following:
 
@@ -304,16 +269,17 @@ In this task you'll switch to Report view, and review the model interface.
 
 1. Expand the **Sales \| OrderDate** field, and then notice that it reveals a date hierarchy.
 
-	*The **Targets \| TargetMonth** field delivers a similar hierarchy. These hierarchies weren't created by you. They were created automatically. There's a problem, however. The Adventure Works financial year commences on July 1 of each year. But, in these automatically created date hierarchies, the date hierarchy year commences on January 1 of each year.*
+ *The **Targets \| TargetMonth** field delivers a similar hierarchy. These hierarchies weren't created by you. They were created automatically. There's a problem, however. The Adventure Works financial year commences on July 1 of each year. But, in these automatically created date hierarchies, the date hierarchy year commences on January 1 of each year.*
 
-     ![Picture 359](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image40.png)
+![Picture 359](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image40.png)
 
  You’ll now turn off this automatic behavior. In the **Create DAX Calculations in Power BI Desktop** lab, you’ll use DAX to create a date table, and configure it define the Adventure Works’ calendar.
 
 1. To turn off auto/date time, Navigate to **File > Options and Settings > Options > Current File** group, and select **Data Load**.
-    1. In the **Time Intelligence** section, uncheck **Auto Date/Time**.
 
-     ![Picture 362](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image43.png)
+    - In the **Time Intelligence** section, uncheck **Auto Date/Time**.
+
+    ![Picture 362](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image43.png)
 
 1. In the **Data** pane, notice that the date hierarchies are no longer available.
 
@@ -352,7 +318,7 @@ In this task, you'll create two quick measures to calculate profit and profit ma
 
 1. To rename the measure, right-click it, select **Rename**, then rename to **Profit**.
 
-	*Tip: To rename a field, you can also double-click it, or select it and press **F2**.*
+ *Tip: To rename a field, you can also double-click it, or select it and press **F2**.*
 
 1. In the **Sales** table, add a second quick measure, based on the following requirements:
 
@@ -409,7 +375,7 @@ In this task, you'll create a many-to-many relationship between the **Salesperso
 
 1. Switch back to Model view, and then follow the relationship filter directions (arrowhead) from the **Salesperson** table.
 
-	*Consider that the **Salesperson** table filters the **Sales** table. It also filters the **SalespersonRegion** table, but it doesn't continue by propagating filters to the **Region** table (the arrowhead is pointing the wrong direction).*
+ *Consider that the **Salesperson** table filters the **Sales** table. It also filters the **SalespersonRegion** table, but it doesn't continue by propagating filters to the **Region** table (the arrowhead is pointing the wrong direction).*
 
      ![Picture 380](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image11.png)
 
@@ -427,13 +393,13 @@ In this task, you'll create a many-to-many relationship between the **Salesperso
 
 1. Switch to Report view, and then notice that the sales values have still not changed.
 
-	*The issue now relates to the fact that there are two possible filter propagation paths between the **Salesperson** and **Sales** tables. This ambiguity is internally resolved, based on a “least number of tables” assessment. To be clear, you shouldn’t design models with this type of ambiguity—the issue will be addressed in part later in this lab, and by the completion of the **Create DAX Calculations in Power BI Desktop** lab.*
+ *The issue now relates to the fact that there are two possible filter propagation paths between the **Salesperson** and **Sales** tables. This ambiguity is internally resolved, based on a “least number of tables” assessment. To be clear, you shouldn’t design models with this type of ambiguity—the issue will be addressed in part later in this lab, and by the completion of the **Create DAX Calculations in Power BI Desktop** lab.*
 
 1. Switch to Model view to force filter propagation via the bridging table. Edit (double-click) the relationship between the **Salesperson** and **Sales** tables.
 
 1. In the **Edit Relationship** window, uncheck the **Make This Relationship Active** checkbox, and select **OK**.
 
-	*The filter propagation will now follow the only active path.*
+ *The filter propagation will now follow the only active path.*
 
 1. In the diagram, notice that the inactive relationship is represented by a dashed line.
 
