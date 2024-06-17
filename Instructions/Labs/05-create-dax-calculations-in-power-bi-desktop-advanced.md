@@ -65,7 +65,7 @@ In this task, you'll create a matrix visual to support testing your new measures
     
 	*The labs use a shorthand notation to reference a field or hierarchy. It will look like this: **Region \| Regions**. In this example, **Region** is the table name and **Regions** is the hierarchy name.*
 
-1. Add also the **Sales \| Sales** field.
+1. Add also the **Sales \| Sales** field to the Values well.
 
 1. To expand the entire hierarchy, at the top-right of the matrix visual, select the forked-double arrow icon twice.
     
