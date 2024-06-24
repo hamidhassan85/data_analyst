@@ -34,7 +34,7 @@ In this task, you'll create model relationships. The file was configured to not 
 
 1. In Power BI Desktop, at the left, select the **Report** view icon.
 
-     ![Screenshot of the Report icon.](03-report-nav-pane.png)
+     ![Screenshot of the Report icon.](Linked_image_Files/03-report-nav-pane.png)
 
 1. To view all table fields, in the **Data** pane, right-click an empty area, and then select **Expand All**.
 
@@ -46,11 +46,11 @@ In this task, you'll create model relationships. The file was configured to not 
 
      *The issue is that the table is based on fields from different tables. The expectation is that each product category displays the sales for that category. However, because there isn’t a model relationship between these tables, the **Sales** table isn't filtered. You’ll now add a relationship to propagate filters between the tables.*
 
-     ![Screenshot of the table visual with Category and Sales.](03-table-no-relationship.png)
+     ![Screenshot of the table visual with Category and Sales.](Linked_image_Files/03-table-no-relationship.png)
 
 1. Select the **Model** view icon from the left navigation pane, and select **Manage Relationships**.
 
-     ![Screenshot of Model icon.](03-model-nav-pane.png)
+     ![Screenshot of Model icon.](Linked_image_Files/03-model-nav-pane.png)
 
 1. In the **Manage Relationships** window, notice that no relationships are yet defined. To create a relationship, select **New relationship**.
 
