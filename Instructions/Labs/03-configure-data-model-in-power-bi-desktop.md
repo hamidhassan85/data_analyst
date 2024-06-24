@@ -28,6 +28,12 @@ Extract the folder to the **C:\Users\Student\Downloads\03-model-data** folder.
 
 Open the **03-Starter-Sales Analysis.pbix** file.
 
+> ***Note**: You can dismiss the sign-in by selecting **Cancel**.*
+>
+> *Close any other informational windows.*
+>
+>*Select **Apply Later**, if prompted to apply changes.*
+
 ## Create model relationships
 
 In this task, you'll create model relationships. The file was configured to not identify relationships between tables, which isn't the default setting, but is recommended to prevent extra work creating the correct relationships for your model.
