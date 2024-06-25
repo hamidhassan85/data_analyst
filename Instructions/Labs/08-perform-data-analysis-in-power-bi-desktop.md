@@ -1,14 +1,12 @@
 ---
 lab:
-    course: 'PL-300'
     title: 'Perform Advanced Analytics with AI Visuals'
     module: 'Perform Data Analysis in Power BI'
 ---
 
+# Perform Data Analysis in Power BI
 
-# **Perform Data Analysis in Power BI**
-
-## **Lab story**
+## Lab story
 
 In this lab, you'll create the **Sales Exploration** report.
 
@@ -21,7 +19,13 @@ In this lab you learn how to:
 
 ## Download necessary files
 
-To complete this exercise, first download the [08-advanced-analytics](link) zip folder. Extract the folder named as **08-advanced-analytics** to the **C:\Users\Student\Downloads** folder. **Leave the folder open for later use.**
+To complete this exercise, first open a web browser and enter the following URL to download the zip folder:
+
+`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/08-perform-data-analysis-in-power-bi-desktop/08-perform-analysis.zip`
+
+Extract the folder to the **C:\Users\Student\Downloads\08-perform-analysis** folder.
+
+Leave the folder open for later use.
 
 ## **Get started – Sign in**
 

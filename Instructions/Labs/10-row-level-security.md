@@ -21,7 +21,7 @@ In this lab you learn how to:
 
 ## Download necessary files
 
-To complete this exercise, first download the [10-rls](link) zip folder. Extract the folder named as **10-rls** to the **C:\Users\Student\Downloads** folder. **Leave the folder open for later use.**
+To complete this exercise, first download the [10-row-level-security](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/10-row-level-security\10-row-level-security.zip) zip folder. Extract the folder named as **10-row-level-security** to the **C:\Users\Student\Downloads** folder. **Leave the folder open for later use.**
 
 ## **Get started**
 

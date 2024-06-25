@@ -21,7 +21,7 @@ This lab is designed to introduce you to Power BI Desktop application and how to
 
 To complete this exercise, first open a web browser and enter the following URL to download the zip folder:
 
-`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/main/Allfiles/Labs/01-prepare-data-with-power-query-in-power-bi-desktop/01-prepare-data.zip`
+`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/01-prepare-data-with-power-query-in-power-bi-desktop/01-prepare-data.zip`
 
 Extract the folder to the **C:\Users\Student\Downloads\01-prepare-data** folder.
 

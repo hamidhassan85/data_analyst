@@ -21,7 +21,7 @@ In this lab you learn how to:
 
 ## Download necessary files
 
-To complete this exercise, first download the [05-advanced-dax](link) zip folder. Extract the folder named as **05-advanced-dax** to the **C:\Users\Student\Downloads** folder. **Leave the folder open for later use.**
+To complete this exercise, first download the [05-advanced-dax](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/05-create-dax-calculations-in-power-bi-desktop-advanced\05-advanced-dax.zip) zip folder. Extract the folder named as **05-advanced-dax** to the **C:\Users\Student\Downloads** folder. **Leave the folder open for later use.**
 
 ## **Work with Filter Context**
 

@@ -21,7 +21,7 @@ In this lab you learn how to:
 
 ## Download necessary files
 
-To complete this exercise, first download the [09-dashboard](link) zip folder. Extract the folder named as **09-dashboard** to the **C:\Users\Student\Downloads** folder. **Leave the folder open for later use.**
+To complete this exercise, first download the [09-create-dashboard](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/09-create-power-bi-dashboard\09-create-dashboard.zip) zip folder. Extract the folder named as **09-create-dashboard** to the **C:\Users\Student\Downloads** folder. **Leave the folder open for later use.**
 
 ## **Get started – Sign in**
 

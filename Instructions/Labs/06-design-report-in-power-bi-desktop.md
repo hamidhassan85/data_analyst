@@ -21,7 +21,7 @@ In this lab you learn how to:
 
 ## Download necessary files
 
-To complete this exercise, first download the [06-create-reports](link) zip folder. Extract the folder named as **06-create-reports** to the **C:\Users\Student\Downloads** folder. **Leave the folder open for later use.**
+To complete this exercise, first download the [06-design-report](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/06-design-report-in-power-bi-desktop\06-design-report.zip) zip folder. Extract the folder named as **06-design-report** to the **C:\Users\Student\Downloads** folder. **Leave the folder open for later use.**
 
 ## **Create a Report**
 
