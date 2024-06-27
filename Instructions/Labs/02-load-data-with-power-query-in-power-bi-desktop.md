@@ -21,7 +21,7 @@ In this lab you learn how to:
 
 To complete this exercise, first open a web browser and enter the following URL to download the zip folder:
 
-`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/main/Allfiles/Labs/02-load-data-with-power-query-in-power-bi-desktop/02-load-data.zip`
+`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/02-load-data-with-power-query-in-power-bi-desktop/02-load-data.zip`
 
 Extract the folder to the **C:\Users\Student\Downloads\02-load-data** folder.
 
