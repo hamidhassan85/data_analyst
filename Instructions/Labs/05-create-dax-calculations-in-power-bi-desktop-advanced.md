@@ -23,7 +23,7 @@ In this lab you learn how to:
 
 To complete this exercise, first open a web browser and enter the following URL to download the zip folder:
 
-`https://github.com/afelix-95/PL-300-Microsoft-Power-BI-Data-Analyst/raw/File-Download-Change/Allfiles/Labs/05-create-dax-calculations-in-power-bi-desktop-advanced/05-advanced-dax.zip`
+`https://github.com/afelix-95/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/05-create-dax-calculations-in-power-bi-desktop-advanced/05-advanced-dax.zip`
 
 Extract the folder to the **C:\Users\Student\Downloads\03-model-data** folder.
 
