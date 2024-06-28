@@ -26,7 +26,7 @@ To complete this exercise, first open a web browser and enter the following URL 
 
 `https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/04-create-dax-calculations-in-power-bi-desktop\04-intro-dax.zip`
 
-Extract the folder to the **C:\Users\Student\Downloads\03-model-data** folder.
+Extract the folder to the **C:\Users\Student\Downloads\04-intro-dax** folder.
 
 Open the **04-Starter-Sales Analysis.pbix** file.
 
