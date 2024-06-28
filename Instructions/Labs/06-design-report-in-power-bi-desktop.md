@@ -19,21 +19,21 @@ In this lab you learn how to:
 
 **This lab should take approximately 45 minutes.**
 
-## Download necessary files
+## Get started
 
-To complete this exercise, first download the [06-create-reports](link) zip folder. Extract the folder named as **06-create-reports** to the **C:\Users\Student\Downloads** folder. **Leave the folder open for later use.**
+To complete this exercise, first open a web browser and enter the following URL to download the zip folder:
 
-## **Create a Report**
+`https://github.com/afelix-95/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/06-design-report-in-power-bi-desktop/06-design-report.zip`
 
-In this task, you'll set up the environment for the lab by opening the starter report.
+Extract the folder to the **C:\Users\Student\Downloads\06-design-report** folder.
 
-1. From Power BI Desktop, navigate to **Open > Browse this device**.
+Open the **06-Starter-Sales Analysis.pbix** file.
 
-1. Open the **Sales Analysis** file in the  **D:\Allfiles\Labs\06-design-report-in-power-bi-desktop\Starter** folder.
-
-   *Note: At this point, Power BI will ask you to sign in if you haven't already. You can either sign in or select **Cancel** and continue the lab.*
-
-1. Create a copy of the file by going to **File** > **Save As**, and save the copy in the **D:\Allfiles\MySolution** folder.
+> ***Note**: You can dismiss the sign-in by selecting **Cancel**.*
+>
+> *Close any other informational windows.*
+>
+>*Select **Apply Later**, if prompted to apply changes.*
 
 ## **Design page 1**
 
