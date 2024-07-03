@@ -21,11 +21,24 @@ In this lab you learn how to:
 
 **This lab should take approximately 45 minutes.**
 
-## Download necessary files
+## Get started
 
-To complete this exercise, first download the [07-enhance-reports](link) zip folder. Extract the folder named as **07-enhance-reports** to the **C:\Users\Student\Downloads** folder. **Leave the folder open for later use.**
+To complete this exercise, first open a web browser and enter the following URL to download the zip folder:
 
-## **Get started – Sign in**
+`https://github.com/afelix-95/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/07-design-report-in-power-bi-desktop-enhanced/07-enhanced-report.zip`
+
+Extract the folder to the **C:\Users\Student\Downloads\07-enhanced-report** folder.
+
+Open the **07-Starter-Sales Analysis.pbix** file.
+
+> ***Note**: You can dismiss the sign-in by selecting **Cancel**.*
+>
+> *Close any other informational windows.*
+>
+>*Select **Apply Later**, if prompted to apply changes.*
+
+
+## **Sign in to Power BI Service**
 
 In this task, you'll set up the environment for the lab by signing in to Power BI.
 
@@ -44,34 +57,6 @@ In this task, you'll set up the environment for the lab by signing in to Power B
 1. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane, expand **My Workspace**. Leave the Microsoft Edge browser window open.
 
      ![Picture 22](Linked_image_Files/07-my-workspace-new.png)
-
-## **Get started – Open report**
-
-In this task, you'll set up the environment for the lab by opening the starter report.
-
-*Important: If you're continuing on from the previous lab (and you completed that lab successfully), don't complete this task; instead, skip to the next task.*
-
-1. Open Power BI Desktop.
-
-    ![Power BI Desktop icon](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
-
-1. To open the starter Power BI Desktop file, select **Open > Browse this device**.
-
-1. In the **Open** window, navigate to the **D:\Allfiles\Labs\07-design-report-in-power-bi-desktop-enhanced\Starter** folder, and open the **Sales Analysis** file.
-
-   *Note: At this point, Power BI will ask you to sign in if you haven't already. You can either sign in or select **Cancel** and continue the lab.*
-
-1. Close any informational windows that may open.
-
-1. Notice the warning message beneath the ribbon.
-
-	*This message alerts you to the fact that the queries haven't been applied to load as model tables. You’ll apply the queries later in this lab.*
-
-	*To dismiss the warning message, at the right of the warning message, select **X**.*
-
-1. To create a copy of the file, go to **File > Save As** and save to **D:\Allfiles\MySolution** folder.
-
-1. If prompted to apply changes, select **Apply Later**.
 
 ## **Sync slicers**
 
@@ -163,7 +148,7 @@ In this task, you'll create a new page and configure it as a drill through page.
 	 - Sales \| Sales
 	 - Sales \| Profit Margin
 
-1. Configure the format options for the visual, and in the **Values** section, set the **Text Size** property to **20pt**.
+1. Configure the format options for the visual, and in the **Values** and **Column headers** sections, set the **Text Size** property to **20pt**.
 
 *The design of the drill through page is almost complete. You’ll enhance the page with conditional formatting in the next exercise.*
 
