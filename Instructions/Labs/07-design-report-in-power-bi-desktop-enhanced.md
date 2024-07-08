@@ -1,6 +1,5 @@
 ---
 lab:
-    course: 'PL-300'
     title: 'Enhance a Report in Power BI Desktop'
     module: 'Create Reports in Power BI desktop'
 ---

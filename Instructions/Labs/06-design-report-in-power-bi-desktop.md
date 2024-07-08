@@ -1,6 +1,5 @@
 ---
 lab:
-    course: 'PL-300, DP-605'
     title: 'Design a Report in Power BI Desktop'
     module: 'Create Reports in Power BI Desktop'
 ---
