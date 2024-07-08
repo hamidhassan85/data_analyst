@@ -35,27 +35,25 @@ Open the **05-Starter-Sales Analysis.pbix** file.
 >
 >*Select **Apply Later**, if prompted to apply changes.*
 
-## **Create a matrix visual**
+## Create a matrix visual
 
 In this task, you'll create a matrix visual to support testing your new measures.
 
-1. In Power BI Desktop, in Report view, create a new report page.
+1. In Power BI Desktop, **Report view**, create a new report page.
 
 1. On **Page 3**, add a matrix visual.
 
-    ![Picture 13](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image10.png)
+    ![Picture 13](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image23.png)
 
 1. Resize the matrix visual to fill the entire page.
 
 1. To configure the matrix visual fields, from the **Data** pane, drag the **Region \| Regions** hierarchy, and drop it inside the visual.
-    
-	*The labs use a shorthand notation to reference a field or hierarchy. It will look like this: **Region \| Regions**. In this example, **Region** is the table name and **Regions** is the hierarchy name.*
+
+    > *The labs use a shorthand notation to reference a field or hierarchy. It will look like this: **Region \| Regions**. In this example, **Region** is the table name and **Regions** is the hierarchy name.*
 
 1. Add also the **Sales \| Sales** field to the Values well.
 
 1. To expand the entire hierarchy, at the top-right of the matrix visual, select the forked-double arrow icon twice.
-    
-	*You may recall that the **Regions** hierarchy has the levels **Group**, **Country**, and **Region**.*
 
     ![Picture 47](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image11.png)
 
@@ -69,25 +67,23 @@ In this task, you'll create a matrix visual to support testing your new measures
 
     ![Picture 49](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image14.png)
 
-1. Verify that the matrix visual now has four column headers.
+1. Verify that the matrix visual now has 4 column headers.
 
     ![Picture 50](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image15.png)
 
-    *At Adventure Works, the sales regions are organized into groups, countries, and regions. All countries—except the United States—have just one region, which is named after the country. As the United States is such a large sales territory, it’s divided into five sales regions.*
+    > *At Adventure Works, the sales regions are organized into groups, countries, and regions. All countries—except the United States—have just one region, which is named after the country. As the United States is such a large sales territory, it’s divided into five sales regions.*
 
-    *You’ll create several measures in this exercise, and then test them by adding them to the matrix visual.*
+You’ll create several measures in this exercise, and then test them by adding them to the matrix visual.
 
-## **Manipulate filter context**
+## Manipulate filter context
 
 In this task, you'll create several measures with DAX expressions that use the CALCULATE() function to manipulate filter context.
 
+> *The CALCULATE() function is a powerful function used to manipulate the filter context. The first argument takes an expression or a measure (a measure is just a named expression). Subsequent arguments allow modifying the filter context.*
+
 1. Add a measure to the **Sales** table, based on the following expression:
-    
-	 *For your convenience, all DAX definitions in this lab can be copied from the **D:\Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** file.*
 
-
-    **DAX**
-
+    > **Note**: *For your convenience, all DAX definitions in this lab can be copied from the **D:\Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** file.*
 
     ```
     Sales All Region =
@@ -95,12 +91,10 @@ In this task, you'll create several measures with DAX expressions that use the C
     CALCULATE(SUM(Sales[Sales]), REMOVEFILTERS(Region))
     ```
 
-
-    *The CALCULATE() function is a powerful function used to manipulate the filter context. The first argument takes an expression or a measure (a measure is just a named expression). Subsequent arguments allow modifying the filter context.*
-
-    *The REMOVEFILTERS() function removes active filters. It can take either no arguments, or a table, a column, or multiple columns as its argument.*
-
-    *In this formula, the measure evaluates the sum of the **Sales** column in a modified filter context, which removes any filters applied to the columns of the **Region** table.*
+    >
+    > *The REMOVEFILTERS() function removes active filters. It can take either no arguments, or a table, a column, or multiple columns as its argument.*
+    >
+    > *In this formula, the measure evaluates the sum of the **Sales** column in a modified filter context, which removes any filters applied to the columns of the **Region** table.*
 
 1. Add the **Sales All Region** measure to the matrix visual.
 

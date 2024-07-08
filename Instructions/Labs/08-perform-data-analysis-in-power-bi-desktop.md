@@ -1,14 +1,12 @@
 ---
 lab:
-    course: 'PL-300'
     title: 'Perform Advanced Analytics with AI Visuals'
     module: 'Perform Data Analysis in Power BI'
 ---
 
+# Perform Data Analysis in Power BI
 
-# **Perform Data Analysis in Power BI**
-
-## **Lab story**
+## Lab story
 
 In this lab, you'll create the **Sales Exploration** report.
 
