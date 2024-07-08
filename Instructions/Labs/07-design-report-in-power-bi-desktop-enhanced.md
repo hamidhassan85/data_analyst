@@ -310,4 +310,4 @@ In this exercise, you'll publish the report to the Power BI service and explore 
 
      > *Select each of the buttons, and then notice that a different visual is displayed.*
 
-### Complete lab
+## Lab complete

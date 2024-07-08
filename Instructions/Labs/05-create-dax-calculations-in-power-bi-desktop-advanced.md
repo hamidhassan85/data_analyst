@@ -318,4 +318,4 @@ In this task, you'll create a sales YoY growth measure by using a variable.
 
     ![Picture 63](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image24.png)
 
-## Complete lab
+## Lab complete

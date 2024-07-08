@@ -415,4 +415,4 @@ In this task, you'll create a relationship to the **Targets** table.
 
  > *It’s now possible to visualize sales and targets—but take care for two reasons. First, there’s no filter on a time period, and so targets also include future target amounts. Second, targets aren't additive, and so the total shouldn't be displayed. They can either be disabled by formatting the visual or removed by using calculation logic.*
 
-## Complete lab
+## Lab complete

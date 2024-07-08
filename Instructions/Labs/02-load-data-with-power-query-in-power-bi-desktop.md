@@ -430,7 +430,7 @@ In this task, you'll update the **ColorFormats** to disable its load.
 
      ![Picture 323](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image81.png)
 
-## Complete lab
+### Review final product
 
 In Power Query Editor, verify that you have **8 queries**, correctly named as follows:
 
@@ -450,3 +450,5 @@ Select **Close &amp; Apply** to load the data to the model, and close Power Quer
 You can now see the canvas in Power BI Desktop, with Filters, Visualizations, and Data panes on the right. In the Data pane, notice the **7 tables** loaded to the data model.
 
 ![Picture 3](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image84.png)
+
+## Lab complete

@@ -4,10 +4,9 @@ lab:
     module: 'Create Dashboards'
 ---
 
+# Create a Power BI Dashboard
 
-# **Create a Power BI Dashboard**
-
-## **Lab story**
+## Lab story
 
 In this lab, you'll create the **Sales Monitoring** dashboard in the Power BI service using an existing report.
 
@@ -20,36 +19,15 @@ In this lab you learn how to:
 
 ## Get started
 
-
 To complete this exercise, first open a web browser and enter the following URL to download the zip folder:
 
 `https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/09-create-power-bi-dashboard/09-create-dashboard.zip`
 
 Extract the folder to the **C:\Users\Student\Downloads\09-create-dashboard** folder.
 
-## **Sign in to Power BI Service**
-
-In this task, you'll set up the environment for the lab by signing in to Power BI.
-
-*Note: If you've already signed in to Power BI, skip to the next task.*
-
-1. To open Microsoft Edge, on the taskbar, select the Microsoft Edge program shortcut.
-
-     ![Picture 12](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image1.png)
-
-1. In the Microsoft Edge browser window, navigate to **https://app.powerbi.com**.
-
-    *Tip: You can also use the Power BI Service favorite on the Microsoft Edge favorites bar.*
-
-1. Complete the sign-in process with your organizational credentials (or those provided to you). If prompted by Microsoft Edge to stay signed in, select **Yes**.
-
-1. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane, expand **My Workspace**. Leave the Microsoft Edge browser window open.
-
-     ![Picture 22](Linked_image_Files/07-my-workspace-new.png)
-
 ## **Publish the report**
 
-In this task, you'll set up the environment for the lab by creating a semantic model. *If you've already published the semantic model, please move to the next task.*
+In this task, you'll set up the environment for the lab by creating a semantic model.
 
 1. In the Microsoft Edge browser window, in the Power BI service, navigate to **My Workspace**.
 
@@ -59,7 +37,7 @@ In this task, you'll set up the environment for the lab by creating a semantic m
 
 1. Select the **09-Starter-Sales Analysis.pbix** file, and then select **Open**.
 
-*If prompted to replace the semantic model, select **Replace it**.*
+    > *If prompted to replace the semantic model, select **Replace it**.*
 
 ## **Create a dashboard**
 
@@ -73,7 +51,7 @@ In this task, you'll create the **Sales Monitoring** dashboard. You'll pin a vis
 
 1. Set the **Region** slicer to **Select All**.
 
-	*Pinned visuals are set with the filter context at time of pin. If the underlying visual changes, you'll need to update the dashboard tile as well. For time-based filters, it’s a better idea to use a relative date slicer (or, Q&A using a relative time-based question).*
+	> *Pinned visuals are set with the filter context at time of pin. If the underlying visual changes, you'll need to update the dashboard tile as well. For time-based filters, it’s a better idea to use a relative date slicer (or, Q&A using a relative time-based question).*
 
 1. To create a dashboard and pin a visual, hover the cursor over the **Sales and Profit Margin by Month** (column/line) visual, and select the pushpin.
 
@@ -91,7 +69,7 @@ In this task, you'll create the **Sales Monitoring** dashboard. You'll pin a vis
 
 1. To add a tile based on a question, at the top-left of the dashboard, select **Ask a Question About Your Data**.
     
-	*You can use the Q&A feature to ask a question, and Power BI will respond will a visual.*
+	> *You can use the Q&A feature to ask a question, and Power BI will respond will a visual.*
 
     ![Picture 7](Linked_image_Files/09-create-power-bi-dashboard_image23.png)
 
@@ -100,8 +78,8 @@ In this task, you'll create the **Sales Monitoring** dashboard. You'll pin a vis
 1. Remove all text from the Q&A box, and enter the following: **Sales YTD**
 
 1. Notice the response of **(Blank)**.
-    
-	*You may recall you added the **Sales YTD** measure in the **Create Advanced DAX Calculations in Power BI Desktop** lab. This measure is a Time Intelligence expression and so it requires a filter on the **Date** table to produce a result.*
+
+	> *You may recall you added the **Sales YTD** measure in the **Create Advanced DAX Calculations in Power BI Desktop** lab. This measure is a Time Intelligence expression and so it requires a filter on the **Date** table to produce a result.*
 
     ![Picture 14](Linked_image_Files/09-create-power-bi-dashboard_image25.png)
 
@@ -121,17 +99,17 @@ In this task, you'll create the **Sales Monitoring** dashboard. You'll pin a vis
 
 1. To add the company logo, on the menu bar, select **Edit**, and then select **Add a Tile**.
     
-	*Using this technique to add a dashboard tile lets you enhance your dashboard with media, including web content, images, richly formatted text boxes, and video (using YouTube or Vimeo links).*
+	> *Using this technique to add a dashboard tile lets you enhance your dashboard with media, including web content, images, richly formatted text boxes, and video (using YouTube or Vimeo links).*
 
 1. In the **Add a Tile** pane (located at the right), select the **Image** tile, then **Next**.
 
 1. In the **Add Image Tile** pane, in the **URL** box, enter the complete URL found in the **C:\Users\Student\Downloads\09-create-dashboard\AdventureWorksLogo_DataURL.txt** file, and then **Apply**.
     
-	*You can embed an image by using its URL, or you can use a data URL, which embeds content inline.*
+	> *You can embed an image by using its URL, or you can use a data URL, which embeds content inline.*
 
 1. To resize the logo tile, drag the bottom-right corner, and resize the tile to become one unit wide, and one unit high.
     
-	*Tile sizes are limited to a rectangular shape.*
+	> *Tile sizes are limited to a rectangular shape.*
 
 1. Organize the tiles so that the logo appears at the top-left, with the **Sales YTD** tile beneath it, and the **Sales, Profit Margin** tile at the right.
 
@@ -164,6 +142,8 @@ In this task, you'll edit the details of two tiles.
 ## **Refresh the Semantic model**
 
 In this exercise, you'll first load sales order data for June 2020 into the **AdventureWorksDW2020** database. You'll then open your Power BI Desktop file, perform a data refresh, and then upload the file to your workspace.
+
+> ***Note**: If you're unable to connect to the database, you can use the **09-Solution-Sales-Analysis.pbix** file. Instead of updating the database and refreshing the semantic model, upload the solution file to **My workspace** and see the changes referenced in the following tasks.*
 
 ## **Update the lab database**
 
@@ -208,13 +188,9 @@ In this task, you'll review the dashboard to notice updated sales.
 2. In the **Sales, Profit Margin** tile, in line with the subtitle, notice that the data was **Refreshed: NOW**.
 
 3. Notice also that there's now a column for **2020 Jun**.
-    
-	*If you don’t see the June 2020 data, you might need to press **F5** to reload the web browser.*
+
+	> *If you don’t see the June 2020 data, you might need to press **F5** to reload the web browser.*
 
     ![Picture 33](Linked_image_Files/09-create-power-bi-dashboard_image50.png)
 
-### **Finish up**
-
-In this task, you'll complete the lab.
-
-1. Save the report and close your browser.
+## Lab complete

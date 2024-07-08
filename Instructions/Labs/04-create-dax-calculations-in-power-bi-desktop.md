@@ -390,4 +390,4 @@ In this task, you'll create more measures that use more complex formulas.
 
 	*Tables that comprise only visible measures are automatically listed at the top of the list.*
 
-## Complete lab
+## Lab complete

@@ -396,4 +396,4 @@ In this exercise, you'll publish the report to the Power BI service and explore 
 
      ![Picture 91](Linked_image_Files/07-design-report-in-power-bi-desktop_image71.png)
 
-### Complete lab
+## Lab complete
