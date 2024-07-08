@@ -19,11 +19,15 @@ In this lab you learn how to:
 
 **This lab should take approximately 30 minutes.**
 
-## Download necessary files
+## Get started
 
-To complete this exercise, first download the [09-dashboard](link) zip folder. Extract the folder named as **09-dashboard** to the **C:\Users\Student\Downloads** folder. **Leave the folder open for later use.**
+To complete this exercise, first open a web browser and enter the following URL to download the zip folder:
 
-## **Get started – Sign in**
+`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/09-create-power-bi-dashboard/09-create-dashboard.zip`
+
+Extract the folder to the **C:\Users\Student\Downloads\09-create-dashboard** folder.
+
+## **Sign in to Power BI Service**
 
 In this task, you'll set up the environment for the lab by signing in to Power BI.
 
@@ -43,7 +47,7 @@ In this task, you'll set up the environment for the lab by signing in to Power B
 
      ![Picture 22](Linked_image_Files/07-my-workspace-new.png)
 
-## **Get started – Publish the report**
+## **Publish the report**
 
 In this task, you'll set up the environment for the lab by creating a semantic model. *If you've already published the semantic model, please move to the next task.*
 
@@ -51,9 +55,9 @@ In this task, you'll set up the environment for the lab by creating a semantic m
 
 1. Select **Upload > Browse**.
 
-1. Navigate to **D:\Allfiles\Labs\09-create-power-bi-dashboard\Starter** folder.
+1. Navigate to **C:\Users\Student\Downloads\09-create-dashboard** folder.
 
-1. Select the **Sales Analysis.pbix** file, and then select **Open**.
+1. Select the **09-Starter-Sales Analysis.pbix** file, and then select **Open**.
 
 *If prompted to replace the semantic model, select **Replace it**.*
 
@@ -61,7 +65,7 @@ In this task, you'll set up the environment for the lab by creating a semantic m
 
 In this task, you'll create the **Sales Monitoring** dashboard. You'll pin a visual from the report, and add a tile based on an image data URI, and use Q&A to create a tile.
 
-1. In the Power BI service, open the **Sales Analysis** report.
+1. In the Power BI service, open the **09-Starter-Sales Analysis** report.
 
 1. In the **Overview** page, set the **Year** slicer to **FY2020**.
 
@@ -97,7 +101,7 @@ In this task, you'll create the **Sales Monitoring** dashboard. You'll pin a vis
 
 1. Notice the response of **(Blank)**.
     
-	*You may recall you added the **Sales YTD** measure in the **Create Advanced DAX Calculations in Power BI Desktop** lab. This measure is a Time Intelligence expression and it so requires a filter on the **Date** table to produce a result.*
+	*You may recall you added the **Sales YTD** measure in the **Create Advanced DAX Calculations in Power BI Desktop** lab. This measure is a Time Intelligence expression and so it requires a filter on the **Date** table to produce a result.*
 
     ![Picture 14](Linked_image_Files/09-create-power-bi-dashboard_image25.png)
 
@@ -111,7 +115,7 @@ In this task, you'll create the **Sales Monitoring** dashboard. You'll pin a vis
 
     ![Picture 15](Linked_image_Files/09-create-power-bi-dashboard_image28.png)
 
-1. When prompted to pin the tile to the dashboard, select **Pin**.
+1. When prompted to pin the tile to the **Sales Monitoring** dashboard, select **Pin**.
 
 1. To return to the dashboard, at the top-left corner, select **Exit Q&amp;A**.
 
@@ -121,7 +125,7 @@ In this task, you'll create the **Sales Monitoring** dashboard. You'll pin a vis
 
 1. In the **Add a Tile** pane (located at the right), select the **Image** tile, then **Next**.
 
-1. In the **Add Image Tile** pane, in the **URL** box, enter the complete URL found in the **D:\Allfiles\Resources\AdventureWorksLogo_DataURL.txt** file, and then **Apply**.
+1. In the **Add Image Tile** pane, in the **URL** box, enter the complete URL found in the **C:\Users\Student\Downloads\09-create-dashboard\AdventureWorksLogo_DataURL.txt** file, and then **Apply**.
     
 	*You can embed an image by using its URL, or you can use a data URL, which embeds content inline.*
 
@@ -165,7 +169,7 @@ In this exercise, you'll first load sales order data for June 2020 into the **Ad
 
 In this task, you'll run a PowerShell script to update data in the **AdventureWorksDW2020** database.
 
-1. In File Explorer, inside the **D:\Allfiles\Setup** folder, right-click the **UpdateDatabase-2-AddSales.ps1** file, and then select **Run with PowerShell**.
+1. In File Explorer, inside the **C:\Users\Student\Downloads\09-create-dashboard** folder, right-click the **UpdateDatabase-2-AddSales.ps1** file, and then select **Run with PowerShell**.
 
     ![Picture 28](Linked_image_Files/09-create-power-bi-dashboard_image46.png)
 
@@ -177,7 +181,7 @@ In this task, you'll run a PowerShell script to update data in the **AdventureWo
 
 ## **Refresh the Power BI Desktop file**
 
-In this task you'll open the **Sales Analysis** Power BI Desktop file, perform a data refresh, and then upload the file to your **Sales Analysis** workspace.
+In this task you'll open the **09-Starter-Sales Analysis** Power BI Desktop file, perform a data refresh, and then upload the file to your **Sales Analysis** workspace.
 
 1. In Power BI Desktop file, in the **Data** pane, right-click the **Sales** table, and then select **Refresh Data**.
 
