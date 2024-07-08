@@ -17,7 +17,7 @@ In this lab you learn how to:
 
 **This lab should take approximately 30 minutes.**
 
-## Download necessary files
+## Get started
 
 To complete this exercise, first open a web browser and enter the following URL to download the zip folder:
 
@@ -25,9 +25,7 @@ To complete this exercise, first open a web browser and enter the following URL 
 
 Extract the folder to the **C:\Users\Student\Downloads\08-perform-analysis** folder.
 
-Leave the folder open for later use.
-
-## **Get started – Sign in**
+## **Sign in to Power BI Service**
 
 In this task, you'll set up the environment for the lab by signing in to Power BI.
 
@@ -47,7 +45,7 @@ In this task, you'll set up the environment for the lab by signing in to Power B
 
      ![Picture 22](Linked_image_Files/07-my-workspace-new.png)
 
-## **Get started – Create a semantic model**
+## **Create a semantic model**
 
 In this task, you'll set up the environment for the lab by creating a semantic model. *If you've already published the semantic model, please move to the next task.*
 
@@ -55,9 +53,9 @@ In this task, you'll set up the environment for the lab by creating a semantic m
 
 1. Select **Upload > Browse**.
 
-1. Navigate to **D:\Allfiles\Labs\08-perform-data-analysis-in-power-bi-desktop\Starter** folder.
+1. Navigate to **C:\Users\Student\Downloads\08-perform-analysis** folder.
 
-1. Select the **Sales Analysis.pbix** file, and then select **Open**.
+1. Select the **08-Starter-Sales Analysis.pbix** file, and then select **Open**.
 
 	*If prompted to replace the semantic model, select **Replace it**.*
 
@@ -79,7 +77,7 @@ In this task, you'll create a live connection to the Power BI semantic model cre
 
 1. In the **OneLake data hub** window, select the **Sales Analysis** semantic model in **My Workspace**, and then **Connect** or double-click to load the semantic model.
 
-1. Navigate to **File > Save** and save the file name as **Sales Exploration** in the **D:\Allfiles\MySolution** folder.
+1. Save the Power BI Desktop file.
 
 *You’ll now create two report pages, and on each page you’ll work with a different visual to analyze and explore data.*
 
