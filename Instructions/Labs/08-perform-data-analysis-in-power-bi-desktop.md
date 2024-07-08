@@ -55,7 +55,7 @@ In this task, you'll set up the environment for the lab by creating a semantic m
 
 1. Select **Upload > Browse**.
 
-1. Navigate to **"C:\Users\Student\Downloads\08-perform-analysis"** folder.
+1. Navigate to **C:\Users\Student\Downloads\08-perform-analysis** folder.
 
 1. Select the **08-Starter-Sales Analysis.pbix** file, and then select **Open**.
 
