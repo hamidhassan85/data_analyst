@@ -49,7 +49,7 @@ In a new Microsoft Edge browser window, navigate to **https://app.powerbi.com**.
 
 1. Open Power BI Desktop, and create a new report.
 
-1. In the Home ribbon, select **Get Data > Power BI semantic models**.
+1. In the Home ribbon, select **OneLake data hub > Power BI semantic models**.
 
 1. In the **OneLake data hub** window, select the **Sales Analysis** semantic model in **My Workspace**, and then **Connect** or double-click to load the semantic model.
 

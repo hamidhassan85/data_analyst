@@ -219,6 +219,7 @@ In this task, you'll complete the design of the **Date** table by hiding a colum
 	- **Date \| Date** to **Sales \| OrderDate**
 	- **Date \| Date** to **Targets \| TargetMonth**
 
+
 	> *The labs use a shorthand notation to reference a field. It will look like this: **Sales \| Unit Price**. In this example, **Sales** is the table name and **Unit Price** is the field name.*
 
 1. Hide the following two columns:
