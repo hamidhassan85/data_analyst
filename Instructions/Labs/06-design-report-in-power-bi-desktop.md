@@ -316,7 +316,7 @@ In this exercise, you'll publish the report to the Power BI service and explore 
 
 1. When the publication has succeeded, select **Got It**.
 
-1. Open a Microsoft Edge browser, then sign-in at **<https://app.powerbi.com>**.
+1. Open a Microsoft Edge browser, then sign-in at `https://app.powerbi.com`.
 
 1. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane (located at the left, and it could be collapsed), expand **My Workspace**.
 
