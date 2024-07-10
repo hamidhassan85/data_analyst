@@ -43,7 +43,7 @@ In this task, you'll enforce row-level security to ensure a salesperson can only
 
 1. In the **Data** pane, select the **Salesperson (Performance)** table.
 
-1. Review the data, noticing that Michael Blythe (EmployeeKey 281) has a UPN value of: **michael-blythe@adventureworks.com**
+1. Review the data, noticing that Michael Blythe (EmployeeKey 281) has a UPN value of: **`michael-blythe@adventureworks.com`**
     
 	> *You may recall that Michael Blythe is assigned to three sales regions: US Northeast, US Central, and US Southeast.*
 
@@ -77,7 +77,7 @@ In this task, you'll enforce row-level security to ensure a salesperson can only
 
    ![Picture 5708](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image27.png)
 
-1. In the **View as Roles** window, check the **Other User** item, and then in the corresponding box, enter: **michael-blythe@adventureworks.com**
+1. In the **View as Roles** window, check the **Other User** item, and then in the corresponding box, enter: **`michael-blythe@adventureworks.com`**
 
 1. Check the **Salespeople** role, and then **OK**.
     

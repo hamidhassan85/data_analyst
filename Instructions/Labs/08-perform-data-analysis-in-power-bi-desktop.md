@@ -25,37 +25,13 @@ To complete this exercise, first open a web browser and enter the following URL 
 
 Extract the folder to the **C:\Users\Student\Downloads\08-perform-analysis** folder.
 
-## Create a semantic model
+1. Open the **08-Starter-Sales Analysis.pbix** file.
 
-In this task, you'll set up the environment for the lab by creating a semantic model, then create a live connection to the Power BI semantic model created in the last task, and a new **Sales Exploration** report.
-
-> **Note**: You can complete this exercise online by using the starter file, even if you don't have access to the online Power BI service. Simply skip uploading the starter file, and create a new report page for the next task.
-
-In a new Microsoft Edge browser window, navigate to **https://app.powerbi.com**.
-
-1. In the Power BI service **Navigation** pane, navigate to **My Workspace**.
-
-     ![Picture 22](Linked_image_Files/07-my-workspace-new.png)
-
-1. Select **Upload > Browse**.
-
-1. Navigate to **C:\Users\Student\Downloads\08-perform-analysis** folder.
-
-1. Select the **08-Starter-Sales Analysis.pbix** file, and then select **Open**.
-
-    > *If prompted to replace the semantic model, select **Replace it**.*
-
-> *This method will create a report and a semantic model. We will only use the semantic model to create a new report in this exercise.*
-
-1. Open Power BI Desktop, and create a new report.
-
-1. In the Home ribbon, select **OneLake data hub > Power BI semantic models**.
-
-1. In the **OneLake data hub** window, select the **Sales Analysis** semantic model in **My Workspace**, and then **Connect** or double-click to load the semantic model.
-
-1. Save the Power BI Desktop file with a new name **"Sales Exploration"**.
-
-*You’ll now create two report pages, and on each page you’ll work with a different visual to analyze and explore data.*
+> ***Note**: You can dismiss the sign-in by selecting **Cancel**.*
+>
+> *Close any other informational windows.*
+>
+>*Select **Apply Later**, if prompted to apply changes.*
 
 ## Create an animated scatter chart
 
