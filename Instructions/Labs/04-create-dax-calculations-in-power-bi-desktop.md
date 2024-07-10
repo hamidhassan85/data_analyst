@@ -95,7 +95,7 @@ In this task, you'll create the **Date** table.
 
 1. In the formula bar, enter the following DAX:
 
-	```
+	```DAX
 	Date =  
 	CALENDARAUTO(6)
 	```
@@ -128,7 +128,7 @@ In this task, you'll add more columns to enable filtering and grouping by differ
 
 1. In the formula bar, type the following (or copy from the snippets file), and then press **Enter**:
 
-   ```
+   ```DAX
    Year =
    "FY" & YEAR('Date'[Date]) + IF(MONTH('Date'[Date]) > 6, 1)
    ```
@@ -176,7 +176,7 @@ In this task, you'll add more columns to enable filtering and grouping by differ
 
 1. Add the **MonthKey** column to the **Date** table.
 
-	```
+	```DAX
 	MonthKey =
 	(YEAR('Date'[Date]) * 100) + MONTH('Date'[Date])
 	```
@@ -261,7 +261,7 @@ In this task, you'll create simple measures. Simple measures aggregate values in
 
 1. In the formula bar, add the following measure definition:
 
-	```
+	```DAX
 	Avg Price =  
 	AVERAGE(Sales[Unit Price])
 	```
@@ -340,7 +340,7 @@ In this task, you'll create more measures that use more complex formulas.
 
 1. Create the following measure on the **Targets** table:
 
-	```
+	```DAX
 	Target =
 	IF(
 	HASONEVALUE('Salesperson (Performance)'[Salesperson]),
