@@ -37,7 +37,7 @@ Extract the folder to the **C:\Users\Student\Downloads\08-perform-analysis** fol
 
 In this task, you'll create a scatter chart that can be animated.
 
-1. Rename **Page 1** as **Scatter Chart**.
+1. Create a new page and name it **Scatter Chart**.
 
 1. Add a **Scatter Chart** visual to the report page, and then position and resize it so it fills the entire page.
 
@@ -68,7 +68,7 @@ In this task, you'll create a scatter chart that can be animated.
 1. Watch the entire animation cycle from **FY2018 Q1** to **FY2020 Q4**.
 
 	> *The scatter chart allows understanding the measure values simultaneously: in this case, order quantity, sales revenue, and profit margin.*
-    
+    > 
 	> *Each bubble represents a reseller business type. Changes in the bubble size reflect increased or decreased order quantities. While horizontal movements represent increases/decreases in sales revenue, and vertical movements represent increases/decreases in profitability.*
 
 1. When the animation stops, select one of the bubbles to reveal its tracking over time.
@@ -126,7 +126,7 @@ In this task, you'll create a forecast to determine possible future sales revenu
 1. In the line visual, notice that the forecast has extended one month beyond the history data.
 
 	> *The gray area represents the confidence. The wider the confidence, the less stable—and therefore the less accurate—the forecast is likely to be.*
-
+    >
 	> *When you know the length of the cycle, in this case annual, you should enter the seasonality points. Sometimes it could be weekly (7), or monthly (30).*
 
 1. In the **Filters** pane, filter by **Clothing** only, and notice that it produces a different result.
