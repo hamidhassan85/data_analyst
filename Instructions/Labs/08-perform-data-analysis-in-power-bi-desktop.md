@@ -27,11 +27,7 @@ Extract the folder to the **C:\Users\Student\Downloads\08-perform-analysis** fol
 
 1. Open the **08-Starter-Sales Analysis.pbix** file.
 
-> ***Note**: You can dismiss the sign-in by selecting **Cancel**.*
->
-> *Close any other informational windows.*
->
->*Select **Apply Later**, if prompted to apply changes.*
+> ***Note**: You can dismiss the sign-in by selecting **Cancel**. Close any other informational windows. Select **Apply Later**, if prompted to apply changes.*
 
 ## Create an animated scatter chart
 

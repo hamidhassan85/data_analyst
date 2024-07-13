@@ -27,12 +27,10 @@ Extract the folder to the **C:\Users\Student\Downloads\01-prepare-data** folder.
 
 Open the **01-Starter-Sales Analysis.pbix** file.
 
-> **Note**: This starter file has been specially configured to help you complete the lab. The following report-level settings have been disabled in the starter file:
->
-> - Data Load > Import relationships from data sources on first load
-> - Data Load > Autodetect new relationships after data is loaded
->
-> *While having these two options enabled can be helpful when developing a data model, you disabled them earlier to support the lab experience. When you create relationships in the **Load Transformed Data in Power BI Desktop** lab, you’ll learn why you're adding each one.*
+- This starter file has been specially configured to help you complete the lab. The following report-level settings have been disabled in the starter file:
+
+  - Data Load > Import relationships from data sources on first load
+  - Data Load > Autodetect new relationships after data is loaded
 
 ## Get data from SQL Server
 
