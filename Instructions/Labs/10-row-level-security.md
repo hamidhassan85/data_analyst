@@ -1,14 +1,12 @@
 ---
 lab:
-    course: 'PL-300'
     title: 'Enforce Row-Level Security'
     module: 'Enforce Row-Level Security'
 ---
 
+# Enforce Row-Level Security
 
-# **Enforce Row-Level Security**
-
-## **Lab story**
+## Lab story
 
 In this lab, you'll enforce row-level security to ensure that a salesperson can only analyze sales data for their assigned region(s).
 
@@ -19,33 +17,23 @@ In this lab you learn how to:
 
 **This lab should take approximately 20 minutes.**
 
-## **Get started**
+## Get started
 
-In this task, you'll set up the environment for the lab.
+To complete this exercise, first open a web browser and enter the following URL to download the zip folder:
 
-*Important: If you're continuing on from the previous lab (and you completed that lab successfully), don't complete this task; instead, continue from the next task.*
+`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/10-row-level-security/10-row-level-security.zip`
 
-1. Open Power BI Desktop.
+Extract the folder to the **C:\Users\Student\Downloads\10-row-level-security** folder.
 
-    ![Power BI Desktop icon](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
+Open the **10-Starter-Sales Analysis.pbix** file.
 
-1. To open the starter Power BI Desktop file, select **Open > Browse this device**.
+> ***Note**: You can dismiss the sign-in by selecting **Cancel**.*
+>
+> *Close any other informational windows.*
+>
+>*Select **Apply Later**, if prompted to apply changes.*
 
-1. In the **Open** window, navigate to the **D:\Allfiles\Labs\10-row-level-security\Starter** folder, and open the **Sales Analysis** file.
-
-   *Note: At this point, Power BI will ask you to sign in if you haven't already. You can either sign in or select **Cancel** and continue the lab.*
-
-1. Close any informational windows that may open.
-
-1. Notice the warning message beneath the ribbon. *This message alerts you to the fact that the queries haven't been applied to load as model tables. You’ll apply the queries later in this lab.*
-    
-	*To dismiss the warning message, at the right of the warning message, select **X**.*
-
-1. To create a copy of the file, go to **File > Save As** and save to **D:\Allfiles\MySolution** folder.
-
-1. If prompted to apply changes, select **Apply Later**.
-
-## **Enforce row-level security**
+## Enforce row-level security
 
 In this task, you'll enforce row-level security to ensure a salesperson can only see sales made in their assigned region(s).
 
@@ -55,10 +43,9 @@ In this task, you'll enforce row-level security to ensure a salesperson can only
 
 1. In the **Data** pane, select the **Salesperson (Performance)** table.
 
-
-1. Review the data, noticing that Michael Blythe (EmployeeKey 281) has a UPN value of: **michael-blythe@adventureworks.com**
+1. Review the data, noticing that Michael Blythe (EmployeeKey 281) has a UPN value of: **`michael-blythe@adventureworks.com`**
     
-	*You may recall that Michael Blythe is assigned to three sales regions: US Northeast, US Central, and US Southeast.*
+	> *You may recall that Michael Blythe is assigned to three sales regions: US Northeast, US Central, and US Southeast.*
 
 1. On the **Home** ribbon tab, from inside the **Security** group, select **Manage Roles**.
 
@@ -76,15 +63,13 @@ In this task, you'll enforce row-level security to ensure a salesperson can only
 
 1. In the DAX editor box, enter the following expression:
 
-   	**DAX**
-
-	```
-	[UPN] = USERPRINCIPALNAME()
-	```
-    
-	*USERPRINCIPALNAME() is a Data Analysis Expressions (DAX) function that returns the name of the authenticated user. It means that the **Salesperson (Performance)** table will filter by the User Principal Name (UPN) of the user querying the model.*
+    ```DAX
+    [UPN] = USERPRINCIPALNAME()
+    ```
 
    ![Picture 11](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image25.png)
+
+    > *USERPRINCIPALNAME() is a Data Analysis Expressions (DAX) function that returns the name of the authenticated user. It means that the **Salesperson (Performance)** table will filter by the User Principal Name (UPN) of the user querying the model.*
 
 1. Select **Save** and **Close**.
 
@@ -92,11 +77,11 @@ In this task, you'll enforce row-level security to ensure a salesperson can only
 
    ![Picture 5708](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image27.png)
 
-1. In the **View as Roles** window, check the **Other User** item, and then in the corresponding box, enter: **michael-blythe@adventureworks.com**
+1. In the **View as Roles** window, check the **Other User** item, and then in the corresponding box, enter: **`michael-blythe@adventureworks.com`**
 
 1. Check the **Salespeople** role, and then **OK**.
     
-	*This configuration results in using the **Salespeople** role and impersonating the user with your Michael Blythe’s name.*
+	> *This configuration results in using the **Salespeople** role and impersonating the user with your Michael Blythe’s name.*
 
    ![Picture 5709](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image28.png)
 
@@ -120,10 +105,6 @@ In this task, you'll enforce row-level security to ensure a salesperson can only
 
    ![Screenshot 2024-04-18 145556](https://github.com/afelix-95/PL-300-Microsoft-Power-BI-Data-Analyst/assets/148110824/deeb4eac-b639-433d-a9d4-29c8e127008e)
 
-### **Finish up**
-
-In this task, you'll complete the lab.
-
-1. Select **Save**, then save the Power BI Desktop file to end the lab.
-
 *Note: When the Power BI Desktop file is published to the Power BI service, you’ll need to complete a post-publication task to map security principals to the **Salespeople** role. You won’t do that in this lab.*
+
+## Lab complete
