@@ -60,9 +60,9 @@ In this task, you'll create a matrix visual to support testing your new measures
 
     ![Picture 14](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image12.png)
 
-1. In the **Search** box, enter **Stepped**.
+1. In the **Search** box, enter **Layout**.
 
-1. Set the **Stepped Layout** property to **Off**.
+1. Set the **Layout** property to **Tabular**.
 
     ![Picture 49](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image14.png)
 
