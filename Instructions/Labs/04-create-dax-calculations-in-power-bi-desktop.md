@@ -45,7 +45,7 @@ The formula bar supports entering a valid DAX formula. It includes features like
 
 2. In the formula bar (which opens directly beneath the ribbon when creating or editing calculations), type **Salesperson =**, press **Shift+Enter**, type **'Salesperson (Performance)'**, and then press **Enter**.
 
-	> **Note**: *For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in **D:\Allfiles\Labs\04-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
+	> **Note**: *For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in **04-intro-dax\Snippets.txt**.*
 
 	 ![Picture 4](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image10.png)
 
