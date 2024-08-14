@@ -123,13 +123,14 @@ In this task, you'll add more columns to enable filtering and grouping by differ
 	![Picture 11](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image19.png)
 
 1. In the formula bar, type the following (or copy from the snippets file), and then press **Enter**:
+	> *The formula uses the date’s year value but adds one to the year value when the month is after June. It’s how fiscal years at Adventure Works are calculated.*
 
    ```DAX
    Year =
    "FY" & YEAR('Date'[Date]) + IF(MONTH('Date'[Date]) > 6, 1)
    ```
 
-	> *The formula uses the date’s year value but adds one to the year value when the month is after June. It’s how fiscal years at Adventure Works are calculated.*
+
 
 1. Use the snippets file definitions to create the following two calculated columns for the **Date** table:
 
