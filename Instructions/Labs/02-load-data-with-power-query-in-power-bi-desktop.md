@@ -43,6 +43,8 @@ In this task, you'll use Power Query Editor to configure the **Salesperson** que
 
      ![Picture 1](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image11.png)
 
+> **Note:** If you receive a warning message asking to specify how to connect, select **Edit Credentials**, connect using current credentials, and select **OK** to use an unencrypted connection.
+ 
 1. To rename the query, in the **Query Settings** pane (located at the right), in the **Name** box, replace the text with **Salesperson**, and then press **Enter**. Then verify the name has been updated in **Queries** pane.
 
     > *The query name determines the model table name. It’s recommended to define concise and user-friendly names.*
