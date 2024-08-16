@@ -29,11 +29,7 @@ Extract the folder to the **C:\Users\Student\Downloads\04-intro-dax** folder.
 
 Open the **04-Starter-Sales Analysis.pbix** file.
 
-> ***Note**: You can dismiss the sign-in by selecting **Cancel**.*
->
-> *Close any other informational windows.*
->
->*Select **Apply Later**, if prompted to apply changes.*
+> ***Note**: You can dismiss the sign-in by selecting **Cancel**. Close any other informational windows. Select **Apply Later**, if prompted to apply changes.*
 
 ## Create the Salesperson calculated table
 
@@ -49,7 +45,7 @@ The formula bar supports entering a valid DAX formula. It includes features like
 
 2. In the formula bar (which opens directly beneath the ribbon when creating or editing calculations), type **Salesperson =**, press **Shift+Enter**, type **'Salesperson (Performance)'**, and then press **Enter**.
 
-	> **Note**: *For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in **D:\Allfiles\Labs\04-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
+	> **Note**: *For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in **04-intro-dax\Snippets.txt**.*
 
 	 ![Picture 4](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image10.png)
 
@@ -127,13 +123,14 @@ In this task, you'll add more columns to enable filtering and grouping by differ
 	![Picture 11](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image19.png)
 
 1. In the formula bar, type the following (or copy from the snippets file), and then press **Enter**:
+	> *The formula uses the date’s year value but adds one to the year value when the month is after June. It’s how fiscal years at Adventure Works are calculated.*
 
    ```DAX
    Year =
    "FY" & YEAR('Date'[Date]) + IF(MONTH('Date'[Date]) > 6, 1)
    ```
 
-	> *The formula uses the date’s year value but adds one to the year value when the month is after June. It’s how fiscal years at Adventure Works are calculated.*
+
 
 1. Use the snippets file definitions to create the following two calculated columns for the **Date** table:
 

@@ -28,11 +28,7 @@ Extract the folder to the **C:\Users\Student\Downloads\05-advanced-dax** folder.
 
 Open the **05-Starter-Sales Analysis.pbix** file.
 
-> ***Note**: You can dismiss the sign-in by selecting **Cancel**.*
->
-> *Close any other informational windows.*
->
->*Select **Apply Later**, if prompted to apply changes.*
+> ***Note**: You can dismiss the sign-in by selecting **Cancel**. Close any other informational windows. Select **Apply Later**, if prompted to apply changes.*
 
 ## Create a matrix visual
 

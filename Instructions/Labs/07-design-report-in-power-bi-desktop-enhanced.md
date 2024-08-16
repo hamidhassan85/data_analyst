@@ -29,11 +29,7 @@ Extract the folder to the **C:\Users\Student\Downloads\07-enhanced-report** fold
 
 Open the **07-Starter-Sales Analysis.pbix** file.
 
-> ***Note**: You can dismiss the sign-in by selecting **Cancel**.*
->
-> *Close any other informational windows.*
->
->*Select **Apply Later**, if prompted to apply changes.*
+> ***Note**: You can dismiss the sign-in by selecting **Cancel**. Close any other informational windows. Select **Apply Later**, if prompted to apply changes.*
 
 ## Sync slicers
 

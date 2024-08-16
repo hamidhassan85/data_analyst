@@ -27,11 +27,7 @@ Extract the folder to the **C:\Users\Student\Downloads\10-row-level-security** f
 
 Open the **10-Starter-Sales Analysis.pbix** file.
 
-> ***Note**: You can dismiss the sign-in by selecting **Cancel**.*
->
-> *Close any other informational windows.*
->
->*Select **Apply Later**, if prompted to apply changes.*
+> ***Note**: You can dismiss the sign-in by selecting **Cancel**. Close any other informational windows. Select **Apply Later**, if prompted to apply changes.*
 
 ## Enforce row-level security
 
