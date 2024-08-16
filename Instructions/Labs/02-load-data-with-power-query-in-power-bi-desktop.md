@@ -300,6 +300,8 @@ In this task, you'll configure the **Targets** query.
 
 1. Select the **ResellerSalesTargets** query and rename to **Targets**.
 
+> **Note:** If you receive a warning message asking to specify how to connect, select **Edit Credentials**, and use anonymous access.
+
 1. To unpivot the 12 month columns (**M01**-**M12**), first multi-select the **Year** and **EmployeeID** column headers.
 
 1. Right-click either of the select column headers, and then in the context menu, select **Unpivot Other Columns**.
