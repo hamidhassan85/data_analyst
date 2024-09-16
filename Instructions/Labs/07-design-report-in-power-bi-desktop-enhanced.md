@@ -15,7 +15,7 @@ In this lab you learn how to:
 - Sync slicers
 - Create a drill through page
 - Apply conditional formatting
-- Create and use bookmarks
+- Create and use bookmarks & buttons
 
 **This lab should take approximately 45 minutes.**
 
