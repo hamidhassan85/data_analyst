@@ -14,8 +14,8 @@ In this lab you learn how to:
 
 - Create and edit visual calculations
 - Use PREVIOUS(), RUNNINGSUM() and MOVINGAVERAGE() functions to create comparison metrics between each fiscal year
-- Use the CALCULATE() function to manipulate filter context
-- Use Time Intelligence functions
+- Use the optional Axis parameter when creating comparison metrics.
+- Use the optional Reset parameter to customize cumulative calculations in a multi-leveled axis. 
 
 **This lab should take approximately 45 minutes.**
 
@@ -35,7 +35,7 @@ In Power BI Desktop, go to **File > Options and Settings > Options > Pre
 
 ## Create a bar chart visual
 
-In this task, you’ll create a bar chart showing sales amount and total product cost by fiscal year.
+In this task, you’ll create a bar chart showing sales amount, total product cost, and profit by fiscal year, with comparison metrics as tooltips.
 
 1. In the **Visualizations** pane, select the clustered bar chart visual type.
 
@@ -50,8 +50,6 @@ In this task, you’ll create a bar chart showing sales amount and total product
    ![Picture 02](Linked_image_Files/xx-create-visual-calculations-in-power-bi-desktop_image02.png)
 
 ### Add calculations
-
-In this task, you'll create new visual calculations based on DAX formulas.
 
 1. With the bar chart selected, select **New visual calculation** in the ribbon:
 
@@ -81,9 +79,8 @@ In this task, you'll create new visual calculations based on DAX formulas.
 
 ### Hide fields and finish visual
 
-In this task, you'll hide some of the fields from the visual and turn others into tooltips.
-
 1. Under the **X-axis** well/area, select the visibily icon of the following fields to hide them from the visual:
+
    - Sum of Sales
    - Sum of Cost
    - Profit
@@ -99,6 +96,8 @@ Notice how the visual matrix is not updated, and the fields and calculations you
    ![Picture 08](Linked_image_Files/xx-create-visual-calculations-in-power-bi-desktop_image08.png)
 
 ## Create a matrix visual
+
+In this task, you'll create a matrix visual that compares the sales amount per category against the first fiscal year for each of the following years.
 
 1. In **Report view**, create a new report page.
 
@@ -137,3 +136,36 @@ Notice how nothing changes as ROWS is the default value for the Axis parameter.
 1. Exit out of the visual calculations edit screen to your report.
 
 ## Create a line chart visual
+
+In this task, you'll create a line chart that shows the running sum for sales. This sum will reset at the beginning of every fiscal year.
+
+1. In **Report view**, create a new report page.
+
+1. On **Page 3**, add a line chart visual.
+
+1. Add the following fields to the visual wells/areas:
+
+     - X-axis: **Date \| Year** and **Date \| Quarter**
+     - Y-axis: **Sales \| Sales**
+
+### Add running sum
+
+1. With the line chart selected, expand the menu under **New visual calculation** and select **Running sum** from the template options.
+
+1. Replace the `[Field]` placeholder with `[Sum of Sales]` and commit the change. The visual should look as follows:
+
+   ![Picture 09](Linked_image_Files/xx-create-visual-calculations-in-power-bi-desktop_image09.png)
+
+### Update running sum to restart every new fiscal year
+
+1. While still in the visual calculations edit window, select the **Running sum** field under **Y-axis** and update the expression for this calculation by adding the HIGHESTPARENT reset parameter and commit the changes:
+
+   ```DAX
+    Running sum = RUNNINGSUM([Sum of Sales], HIGHESTPARENT)
+   ```
+
+Verify that the running sum indeed restarts for every new fiscal year:
+
+   ![Picture 10](Linked_image_Files/xx-create-visual-calculations-in-power-bi-desktop_image10.png)
+
+## Lab complete
