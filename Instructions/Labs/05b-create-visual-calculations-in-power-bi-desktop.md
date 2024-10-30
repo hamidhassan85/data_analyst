@@ -145,7 +145,7 @@ In this task, you'll create a matrix visual that compares the sales amount per c
 
    ![Picture 11](Linked_image_Files/05b-create-visual-calculations-in-power-bi-desktop_image11.png)
 
-> Notice how the Versus first column for the Total Sum of Sales returns zero instead of the difference against the first fiscal year. Total Sum of Sales is on a different hierarchical level than the yearly sums, and therefore, considered the first column on that level.
+> Notice how the **Versus first** column for the **Total Sum of Sales** returns zero instead of the difference against the first fiscal year. **Total Sum of Sales** is on a different hierarchical level than the yearly sums, and therefore, considered the first column on that level.
 
 1. Exit out of the visual calculations edit screen to your report.
 
